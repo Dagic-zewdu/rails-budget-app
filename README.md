@@ -1,1 +1,1 @@
-# rails-budget-app
+# Rails-budget-app
