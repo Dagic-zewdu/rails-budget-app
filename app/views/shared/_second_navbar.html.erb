@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <%= link_to title == "TRANSACTIONS" ? categories_path : :back do %>
+      <%= image_tag ("arrow-back.svg"), class: "navbar-icon m-1" %>
+    <% end %>
+    <h1 class="text-center"><%= title %></h1>
+    <%= image_tag ("search-icon.svg"), class: "navbar-icon m-1" %>
+  </div>
+</nav>
