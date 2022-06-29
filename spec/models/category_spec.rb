@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+#category model
 RSpec.describe Category, type: :model do
   context 'Testing validations on a single subject' do
     before(:all) do
