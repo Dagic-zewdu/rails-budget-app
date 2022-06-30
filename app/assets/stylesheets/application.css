@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  font-family: proxima-nova, sans-serif !important;
+  color: #434b54 !important;
+}
+
+.navbar {
+  background-color: #3778c2 !important;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.navbar-icon {
+  width: 25px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.bottom-container {
+  background-color: #5fb523;
+  padding: 10px;
+}
+
+.inner-bottom-container {
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 1px white;
+  border-radius: 1px;
+  padding: 10px 0;
+}
+
+.bottom-btn {
+  color: white !important;
+  font-size: 16px;
+}
+
+.new-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.amount-dls {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.category-name {
+  font-size: 18px;
+}
+
+.transac-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.app-name {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  position: absolute;
+  top: 40vh;
+  width: 100%;
+}
+
+.login {
+  background-color: #3778c2 !important;
+  color: white !important;
+}
+
+.signup {
+  color: #434b54 !important;
+}
+
+.text-input {
+  border: none;
+  padding: 5px;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 20px;
+}
+
+.nav-link {
+  color: white !important;
+}

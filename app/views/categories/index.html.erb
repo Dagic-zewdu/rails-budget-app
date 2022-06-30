@@ -1,0 +1,21 @@
+<%= render partial: "shared/navbar", locals: { title: "CATEGORIES" } %>
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+<section class="container">
+  <% if @categories.blank?%>
+    <p>You don't have any category yet! Click below to add one.</p>
+  <% else %>
+    <% @categories.each do |category| %>
+      <%= render partial: "shared/category", locals: { category: category } %>
+    <% end %>
+  <% end %>
+</section>
+<div class="bottom-container position-fixed bottom-0 w-100">
+  <div class="inner-bottom-container text-center">
+    <%= link_to "NEW CATEGORY", new_category_path, class: "bottom-btn" %>
+  </div>
+</div>

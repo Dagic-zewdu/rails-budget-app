@@ -1,0 +1,13 @@
+<%= render partial: "shared/second_navbar", locals: { title: "ALL TRANSACTIONS" } %>
+<br>
+<section class="container">
+    <% @transacs.each do |transac| %>
+        <%= render partial: "shared/transac", locals: { transac: transac } %>
+    <% end %>
+</section>
+
+<div class="bottom-container position-fixed bottom-0 w-100">
+  <div class="inner-bottom-container text-center">
+    <%= link_to "NEW TRANSACTION", new_transac_path, class: "bottom-btn" %>
+  </div>
+</div>

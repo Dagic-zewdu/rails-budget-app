@@ -1,0 +1,24 @@
+<% if notice %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
+
+<%= form_with(model: category) do |form| %>
+  <section class="container">
+    <div class="my-3">
+      <%= form.text_field :name, class: "text-input", placeholder: "Name" %>
+    </div>
+
+    <div>
+      <%= form.text_field :icon, class: "text-input", placeholder: "Icon" %>
+    </div>
+  </section>
+
+  <div class="bottom-container position-fixed bottom-0 w-100">
+    <div class="inner-bottom-container text-center">
+      <%= form.submit "ADD CATEGORY", class: "bottom-btn new-btn" %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <%= image_tag ("bars-menu.svg"), class: "navbar-icon" %>
+    </button>
+    <h1><%= title %></h1>
+    <%= image_tag ("search-icon.svg"), class: "navbar-icon m-1" %>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <span id="username-navbar" class="nav-link"><%= current_user.name %></span>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Categories", categories_path, class:"nav-link fs-5" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Transactions", transacs_path, class:"nav-link fs-5" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Account", user_path(current_user.id), class:"nav-link fs-5" %>
+        </li> 
+        <li class="nav-item">
+          <%= link_to 'Logout', user_sign_out_path, class:"nav-link fs-5" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
