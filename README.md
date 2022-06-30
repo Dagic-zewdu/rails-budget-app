@@ -4,7 +4,7 @@
 
 > This project consists of an web app to track your budget. It was proposed as Capstone Project for the Microverse Ruby on Rails module.
 
-![screenshot]()
+![screenshot](./screenshots/screenshot.png)
 
 # ERD
 
@@ -12,7 +12,7 @@
 
 # Video
 
-You can see this app working [here]().
+You can see this app working [here](https://obscure-inlet-70071.herokuapp.com/).
 
 # Live Version
 
