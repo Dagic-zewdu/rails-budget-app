@@ -10,7 +10,7 @@
 
 ![ERD](./screenshots/erd_budget_app.png)
 
-# Video
+# Live version
 
 You can see this app working [here](https://obscure-inlet-70071.herokuapp.com/).
 
