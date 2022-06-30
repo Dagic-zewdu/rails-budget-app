@@ -14,8 +14,6 @@
 
 You can see this app working [here](https://obscure-inlet-70071.herokuapp.com/).
 
-# Live Version
-
 ## Built With
 
 - Ruby
