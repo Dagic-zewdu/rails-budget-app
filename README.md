@@ -4,7 +4,7 @@
 
 > This project consists of an web app to track your budget. It was proposed as Capstone Project for the Microverse Ruby on Rails module.
 
-![screenshot](./screenshots/screen-Shot.png)
+![screenshot](./screenshots/Screen-Shot.png)
 
 # ERD
 
